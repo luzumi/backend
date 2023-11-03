@@ -1,0 +1,88 @@
+{
+  "_id": "_design/countries",
+  "_rev": "56-e3733a0ce2c7d82ceb62c6965087ef92",
+  "views": {
+    "ByLetterA": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"A\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterB": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"B\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterC": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"C\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterD": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"D\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterE": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"E\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterF": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"F\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterG": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"G\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterH": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"H\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterI": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"I\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterJ": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"J\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterK": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"K\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterL": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"L\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterM": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"M\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterN": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"N\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterO": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"O\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterP": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"P\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterQ": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"Q\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterR": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"R\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterS": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"S\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterT": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"T\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterU": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"U\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterV": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"V\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterW": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"W\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterX": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"X\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterZ": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"Z\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetterY": {
+      "map": "function (doc) {\n  if(doc.name && doc.name.startsWith(\"Y\"))\n  emit(doc.name, doc);\n}"
+    },
+    "ByLetter=": {
+      "map": "function (doc) {\n  emit(doc.name, doc);\n}"
+    }
+  },
+  "language": "javascript"
+}
